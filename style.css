@@ -16,22 +16,27 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap: 3vmin;
+    gap: 2vmin;
 }
 
 h1 {
     font-family: 'Bangers', cursive;
     font-size: 50px;
+    margin-bottom: -15px;
 }
 
 h2 {
     font-size: 25px;
 }
 
+#topH2 {
+    margin-bottom: -2px;
+}
+
 button {
     font-family: 'Bangers', cursive;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 5px;
     font-size: 35px;
     border-radius: 5px;
     border: 3px solid orange;
